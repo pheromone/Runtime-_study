@@ -15,6 +15,8 @@
 		6C9097C41F985C440003F18E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9097C31F985C440003F18E /* main.m */; };
 		6C9097CE1F985C440003F18E /* RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9097CD1F985C440003F18E /* RuntimeTests.m */; };
 		6C9097D91F985C440003F18E /* RuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9097D81F985C440003F18E /* RuntimeUITests.m */; };
+		6C9097EE1F986A670003F18E /* NSString+str.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9097ED1F986A670003F18E /* NSString+str.m */; };
+		6C9097F11F9876020003F18E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9097F01F9876020003F18E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6C9097D41F985C440003F18E /* RuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9097D81F985C440003F18E /* RuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeUITests.m; sourceTree = "<group>"; };
 		6C9097DA1F985C440003F18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9097EC1F986A670003F18E /* NSString+str.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+str.h"; sourceTree = "<group>"; };
+		6C9097ED1F986A670003F18E /* NSString+str.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+str.m"; sourceTree = "<group>"; };
+		6C9097EF1F9876020003F18E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6C9097F01F9876020003F18E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				6C9097BF1F985C440003F18E /* LaunchScreen.storyboard */,
 				6C9097C21F985C440003F18E /* Info.plist */,
 				6C9097C31F985C440003F18E /* main.m */,
+				6C9097EC1F986A670003F18E /* NSString+str.h */,
+				6C9097ED1F986A670003F18E /* NSString+str.m */,
+				6C9097EF1F9876020003F18E /* Person.h */,
+				6C9097F01F9876020003F18E /* Person.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -266,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C9097B91F985C440003F18E /* ViewController.m in Sources */,
+				6C9097EE1F986A670003F18E /* NSString+str.m in Sources */,
+				6C9097F11F9876020003F18E /* Person.m in Sources */,
 				6C9097C41F985C440003F18E /* main.m in Sources */,
 				6C9097B61F985C440003F18E /* AppDelegate.m in Sources */,
 			);
@@ -432,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4629HP3VA;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shaoting-Zhou.Runtime";
@@ -446,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4629HP3VA;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shaoting-Zhou.Runtime";
